@@ -1,0 +1,4 @@
+click==8.0.1
+pynput==1.7.3
+asciimatics==1.13.0
+numpy==1.21.1
