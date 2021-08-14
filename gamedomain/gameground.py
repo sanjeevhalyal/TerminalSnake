@@ -59,7 +59,7 @@ class GameGround:
         self.printstring(head=self._snake.head, snake=self._snake.snakebody)
         self.scored()
 
-        return GameStatus.Next,
+        return GameStatus.Next
 
     def reset(self):
         self._snake.reset()

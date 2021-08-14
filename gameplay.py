@@ -31,7 +31,7 @@ class GamePlay:
                 status = GameStatus.EndGame
                 continue
             status = self._gameground.step(key)
-            time.sleep(1)
+            time.sleep(0.5)
 
         if status == GameStatus.Lost:
             return self._gameground.score, "You lost the game, Better luck next time"
